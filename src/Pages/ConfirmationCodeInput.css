@@ -1,0 +1,84 @@
+:root{
+  --main-color:#FE8E00;
+  --icon-color:#6d5f5f;
+  --third-color:#6d5f5f94;
+}
+
+.confirmation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transform: translateY(-60px);
+}
+.confirmation-container h3{
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 27px;
+  font-weight: 600;
+}
+.confirmation-code-input {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  
+  .confirmation-code-input input {
+    width: 62px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid #0e0b0b;
+    /* border-radius: 4px; */
+    margin: 0 5px;
+  }
+ .a-confirm{
+  border: none;
+  background-color: var(--third-color);
+  
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 80%;
+  border-radius: 5px;
+  color: white;
+  margin: auto;
+  margin-top: 50px;
+  font-family: system-ui;
+  font-weight: 600;
+  font-size: 25px;
+  display: block;
+  cursor: no-drop;
+ }
+ .resend{
+  display: flex;
+
+  justify-content: space-between;
+  color: var(--main-color);
+  margin-top: 40px;
+  font-size: 15px;
+ }
+ .active-btn{
+  background-color: var(--main-color) !important;
+  cursor: pointer !important;
+ }
+ @media (max-width:500px) {
+  .confirmation-code-input input{
+    width: 20px;
+  }
+  .confirmation-code-input {
+  
+    gap: 0px;
+}
+.resend {
+  
+ 
+  gap: 35px;
+
+}
+.resend h4{
+  font-size: 12px
+}
+ }
