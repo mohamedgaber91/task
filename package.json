@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/mohamedgaber91/task",
+  "homepage": "https://mohamedgaber91.github.io/task",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
